@@ -4,6 +4,7 @@ public class SumaPojo {
 
 	private String equipo;
 	private int suma;
+	private int idVotacion;
 	
 	public SumaPojo() {}
 	public SumaPojo(String equipo, int suma) {
@@ -26,6 +27,12 @@ public class SumaPojo {
 
 	public void setSuma(int suma) {
 		this.suma = suma;
+	}
+	public int getIdVotacion() {
+		return idVotacion;
+	}
+	public void setIdVotacion(int idVotacion) {
+		this.idVotacion = idVotacion;
 	}
 	
 	
