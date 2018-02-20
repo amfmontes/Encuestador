@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-02-2018 a las 00:23:59
+-- Tiempo de generación: 20-02-2018 a las 01:09:44
 -- Versión del servidor: 10.1.29-MariaDB
 -- Versión de PHP: 7.2.0
 
@@ -42,7 +42,11 @@ INSERT INTO `votaciones` (`idVotacion`, `equipo`, `suma`) VALUES
 (1, 'primero', 83),
 (2, 'segundo', 80),
 (3, 'tercero', 74),
-(4, 'segundo', 80);
+(4, 'segundo', 80),
+(5, 'cuarto', 25),
+(6, 'quinto', 60),
+(7, 'sexto', 57),
+(8, 'sexto', 58191);
 
 --
 -- Índices para tablas volcadas
@@ -62,7 +66,7 @@ ALTER TABLE `votaciones`
 -- AUTO_INCREMENT de la tabla `votaciones`
 --
 ALTER TABLE `votaciones`
-  MODIFY `idVotacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idVotacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
